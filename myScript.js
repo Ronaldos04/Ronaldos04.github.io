@@ -1,7 +1,7 @@
 function showEducationDetailsUOFA(event){
         var CardUOFA = document.querySelector('#Education-UOFA');
         CardUOFA.innerHTML = "";
-        CardUOFA.innerHTML = '<p>Computer Engineering<br>Bachelors Degree<br>Aug 2018 - May 2021</p>';
+        CardUOFA.innerHTML = '<p>Computer Engineering<br>Bachelor\'s Degree<br>Aug 2018 - May 2021</p>';
     }
 
     function showEducationPhotoUOFA(event){
@@ -12,7 +12,7 @@ function showEducationDetailsUOFA(event){
     function showEducationDetailsNWACC(event){
         var CardUOFA = document.querySelector('#Education-NWACC');
         CardUOFA.innerHTML = "";
-        CardUOFA.innerHTML = '<p>Liberal Arts<br>Associates Degree<br>Aug 2016 - May 2018</p>';
+        CardUOFA.innerHTML = '<p>Liberal Arts<br>Associate Degree<br>Aug 2016 - May 2018</p>';
     }
 
     function showEducationPhotoNWACC(event){
