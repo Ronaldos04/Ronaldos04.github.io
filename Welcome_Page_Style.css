@@ -1,0 +1,42 @@
+#Welcome-Offset {
+  padding-top: 60px;
+}
+
+#Welcome {
+  width: 90%;
+  height: 900px;
+  background: linear-gradient(125deg, #e6e6fa, #e6e6fa, lightgreen, #e6e6fa);
+  margin: auto;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#profile-pic {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  align-self: start;
+}
+
+#Welcome-description {
+  font-size: 1.5em;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 900px) {
+  #Welcome {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #Welcome {
+    grid-template-rows: 1fr 1fr;
+  }
+}

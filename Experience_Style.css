@@ -1,0 +1,84 @@
+#Experience-Offset {
+  padding-top: 60px;
+}
+#Experience {
+  width: 90%;
+  height: auto;
+  background: linear-gradient(
+    125deg,
+    rgb(29, 172, 219),
+    #e6e6fa,
+    lightgreen,
+    lightblue,
+    lightgreen,
+    #e6e6fa
+  );
+  margin: auto;
+}
+
+#Experience-title {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.Experience-group {
+  height: auto;
+  display: grid;
+
+  justify-items: center;
+  align-items: start;
+  font-size: 30px;
+}
+
+.Experience-group:hover {
+  background: linear-gradient(
+    125deg,
+    rgb(29, 172, 219),
+    #e6e6fa,
+    rgb(180, 69, 180),
+    rgb(80, 196, 235),
+    rgb(67, 221, 118),
+    #e6e6fa
+  );
+}
+
+.Experience-group .Experience-company {
+  grid-area: 1/1/5/2;
+  display: grid;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.Experience-group .Experience-company img {
+  width: 75px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 800px) {
+  .Experience-group {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Experience-group .Experience-company {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Experience-group {
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .Experience-group .Experience-company {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+}

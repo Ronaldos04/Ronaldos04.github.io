@@ -1,0 +1,956 @@
+nav {
+  background: linear-gradient(
+    90deg,
+    rgb(2, 66, 2),
+    rgb(2, 66, 2),
+    rgb(2, 66, 2),
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    lightgreen,
+    #e6e6fa,
+    #e6e6fa,
+    #e6e6fa
+  );
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  animation-name: colorful;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+nav a {
+  color: black;
+  font-size: 1.75em;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 10px 20px 10px;
+  float: right;
+}
+
+nav a:hover {
+  background: linear-gradient(125deg, rgb(140, 231, 36), rgb(230, 32, 213));
+  padding: 20px;
+}
+
+@keyframes colorful {
+  3% {
+    background: linear-gradient(
+      90deg,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+  5% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  8% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  11% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  14% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  17% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  20% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  23% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  26% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  29% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa
+    );
+  }
+
+  32% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  35% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  38% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  41% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  44% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  47% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen
+    );
+  }
+  50% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen
+    );
+  }
+
+  53% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2)
+    );
+  }
+
+  56% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen
+    );
+  }
+
+  59% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  62% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  65% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  68% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  71% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  73% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen
+    );
+  }
+
+  76% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa
+    );
+  }
+
+  79% {
+    background: linear-gradient(
+      90deg,
+      #e6e6fa,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  82% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  85% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  88% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  91% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  94% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  96% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  97% {
+    background: linear-gradient(
+      90deg,
+      lightgreen,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+
+  100% {
+    background: linear-gradient(
+      90deg,
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      rgb(2, 66, 2),
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      lightgreen,
+      #e6e6fa,
+      #e6e6fa,
+      #e6e6fa
+    );
+  }
+}

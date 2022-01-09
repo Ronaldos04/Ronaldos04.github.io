@@ -1,0 +1,31 @@
+function showEducationDetailsUOFA(event){
+        var CardUOFA = document.querySelector('#Education-UOFA');
+        CardUOFA.innerHTML = "";
+        CardUOFA.innerHTML = '<p>Computer Engineering<br>Bachelors Degree<br>Aug 2018 - May 2021</p>';
+    }
+
+    function showEducationPhotoUOFA(event){
+        var CardUOFA = document.querySelector('#Education-UOFA');
+        CardUOFA.innerHTML = '<img alt = "UofA logo" src = "https://media-exp1.licdn.com/dms/image/C4E0BAQEJi46-9EDQ6w/company-logo_200_200/0/1519856134297?e=1649894400&v=beta&t=pJFr0UluyHhlf5AHaOxQ6kuIvjL066uCaEWva4ubWAo"><h3>University of Arkansas</h3>';
+    }
+
+    function showEducationDetailsNWACC(event){
+        var CardUOFA = document.querySelector('#Education-NWACC');
+        CardUOFA.innerHTML = "";
+        CardUOFA.innerHTML = '<p>Liberal Arts<br>Associates Degree<br>Aug 2016 - May 2018</p>';
+    }
+
+    function showEducationPhotoNWACC(event){
+        var CardUOFA = document.querySelector('#Education-NWACC');
+        CardUOFA.innerHTML = '<img alt = "NWACC logo" src = "https://media-exp1.licdn.com/dms/image/C4E0BAQEyommYuJDqSQ/company-logo_200_200/0/1577977855782?e=1649894400&v=beta&t=FINNO4JB72B89EH-gaA1uyZNA0ScR6wEf-DbbO0k7aQ"><h3>NWACC</h3>';
+    }
+
+    function showEmailID(event){
+        var emailLogo = document.querySelector('#Email-Logo');
+        emailLogo.innerHTML = '<p id = "emailID" onclick = "returnEmailLogo(event)">Ronaldoseranllari@hotmail.com</p>'
+    }
+
+    function returnEmailLogo(event){
+        var emailLogo = document.querySelector('#Email-Logo');
+        emailLogo.innerHTML = ' <img src = "https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png" alt = "Email Thumbnail" onclick="showEmailID(event)" >'
+    }
